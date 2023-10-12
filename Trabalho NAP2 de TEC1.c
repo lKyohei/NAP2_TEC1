@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <locale.h>
 //Prototipo das funções.
 //funções do inicio.
 void inicio();
@@ -47,6 +47,7 @@ void continuar_torneio();
 
 //FUNÇÃO PRINCIPAL DO CODIGO.
 int main(){
+    setlocale(LC_ALL, "Portuguese");
     inicio();
 }
 
